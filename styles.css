@@ -1,0 +1,88 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat Alternates', sans-serif;
+}
+
+body {
+    background-color: #FD7272;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.wrapper {
+    width: 80vmin;
+    height: auto;
+    padding: 50px 40px;
+    background-color: #2C3A47;    
+    border-radius: 5px;
+    box-shadow: 0px 9px 19px -5px rgba(0,0,0,0.48);
+}
+
+h1 {
+    color: #FD7272;
+    font-size: 1.5rem;
+    text-align: center;
+    background-color: white;
+    width: 100%;
+    border-radius: 5px;
+    padding: 5px;
+}
+
+span {
+    display: block;
+    text-align: center;
+    font-size: 90px;
+}
+
+p{
+    font-size: 16px;
+    color: #fff;
+    font-weight: 400;
+    word-wrap: break-word;
+    line-height: 30px;
+    margin: 20 0;
+    opacity: 0;
+}
+
+#jokeQuestion {
+    font-weight: bold;
+    margin-top: 20px;
+}
+
+#jokeReponse {
+    font-style: italic;
+    margin-bottom: 20px;
+}
+
+.fade {
+    opacity: 1;
+    transition: opacity 1.5s;
+}
+
+button {
+    display: block;
+    background-color: #FD7272;
+    border: none;
+    font-size: 18px;
+    color: #fff;
+    font-weight: 600;
+    padding: 12px 25px;
+    margin: 25px auto 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: all 0.3ms;
+}
+
+button:hover{
+    background-color: #2C3A47;
+    border: 1px solid #FD7272;
+    padding: 11px 24px;
+}
+
+.btnStyleTwo {
+    display: flex;
+}
